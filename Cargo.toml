@@ -1,16 +1,16 @@
 [package]
 name = "wp-block-parser-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Rust port of @wordpress/block-serialization-default-parser — parses Gutenberg block comment markup into a typed ParsedBlock tree"
-license = "GPL-2.0-or-later"
-repository = "https://github.com/bhubbard/wp-block-parser-rs"
-homepage = "https://github.com/bhubbard/wp-block-parser-rs"
+license = "GPL-2.0"
+repository = "https://github.com/wp-rust/wp-block-parser-rs"
+homepage = "https://github.com/wp-rust/wp-block-parser-rs"
 documentation = "https://docs.rs/wp-block-parser-rs"
 keywords = ["wordpress", "gutenberg", "blocks", "parser", "cms"]
 categories = ["parser-implementations", "text-processing"]
 readme = "README.md"
 
 [dependencies]
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
